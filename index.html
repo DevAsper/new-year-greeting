@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>С Новым Годом!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="greeting">С Новым Годом, любимая!</h1>
+    <img src="decorated-tree.png" alt="Ёлка" class="christmas-tree">
+    <p class="message">Пусть этот год принесет то, что нужно нам!</p>
+    <audio id="background-music" src="your-melody.mp3" loop></audio>
+    <button class="play-button" onclick="toggleMusic()">🎵 Нажми на меня</button>
+    <div class="gift-box" onclick="showGiftMessage()"></div>
+    <div class="gift-message" id="gift-message">
+      🎁 Давай сходим в СПА! Номер сертификата: 119668/194145
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
